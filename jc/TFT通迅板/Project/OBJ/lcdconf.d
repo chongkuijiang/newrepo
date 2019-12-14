@@ -1,0 +1,9 @@
+.\obj\lcdconf.o: ..\STemWin\Config\LCDConf.c
+.\obj\lcdconf.o: ..\STemWin\inc\GUI.h
+.\obj\lcdconf.o: ..\STemWin\inc\GUI_ConfDefaults.h
+.\obj\lcdconf.o: ..\STemWin\Config\GUIConf.h
+.\obj\lcdconf.o: ..\STemWin\inc\GUI_Type.h
+.\obj\lcdconf.o: ..\STemWin\inc\LCD.h
+.\obj\lcdconf.o: ..\STemWin\inc\Global.h
+.\obj\lcdconf.o: ..\STemWin\inc\GUI_Version.h
+.\obj\lcdconf.o: ..\STemWin\inc\GUIDRV_Lin.h

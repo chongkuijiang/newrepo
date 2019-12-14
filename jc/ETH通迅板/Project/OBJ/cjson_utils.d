@@ -1,0 +1,9 @@
+.\obj\cjson_utils.o: ..\cJson\cJSON_Utils.c
+.\obj\cjson_utils.o: D:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\obj\cjson_utils.o: D:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\obj\cjson_utils.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\cjson_utils.o: D:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\cjson_utils.o: D:\Keil\ARM\ARMCC\bin\..\include\limits.h
+.\obj\cjson_utils.o: ..\cJson\cJSON_Utils.h
+.\obj\cjson_utils.o: ..\cJson\cJSON.h
+.\obj\cjson_utils.o: D:\Keil\ARM\ARMCC\bin\..\include\stddef.h

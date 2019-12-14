@@ -1,0 +1,16 @@
+.\obj\stm32f10x_exti.o: ..\FWLib\src\stm32f10x_exti.c
+.\obj\stm32f10x_exti.o: ..\FWLib\inc\stm32f10x_exti.h
+.\obj\stm32f10x_exti.o: ..\FWLib\stm32f10x.h
+.\obj\stm32f10x_exti.o: ..\FWLib\core_cm3.h
+.\obj\stm32f10x_exti.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\stm32f10x_exti.o: ..\FWLib\system_stm32f10x.h
+.\obj\stm32f10x_exti.o: ..\CODE\stm32f10x_conf.h
+.\obj\stm32f10x_exti.o: ..\FWLib\inc\stm32f10x_crc.h
+.\obj\stm32f10x_exti.o: ..\FWLib\stm32f10x.h
+.\obj\stm32f10x_exti.o: ..\FWLib\inc\stm32f10x_gpio.h
+.\obj\stm32f10x_exti.o: ..\FWLib\inc\stm32f10x_iwdg.h
+.\obj\stm32f10x_exti.o: ..\FWLib\inc\stm32f10x_rcc.h
+.\obj\stm32f10x_exti.o: ..\FWLib\inc\stm32f10x_spi.h
+.\obj\stm32f10x_exti.o: ..\FWLib\inc\stm32f10x_tim.h
+.\obj\stm32f10x_exti.o: ..\FWLib\inc\stm32f10x_usart.h
+.\obj\stm32f10x_exti.o: ..\FWLib\inc\misc.h

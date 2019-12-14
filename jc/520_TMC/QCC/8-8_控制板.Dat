@@ -1,0 +1,30 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~8-8_控制板.PrjPCB|ReportField=ProjectFullPath~C:\Users\Zz\Desktop\QCC制版\QCC\工程文件\8-8_控制板.PrjPCB|ReportField=Title~Bill of Materials For Project [8-8_控制板.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~240|ReportField=ReportTime~9:06:40|ReportField=ReportDate~2018/4/11|ReportField=ReportDateTime~2018/4/11 9:06:40|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2018/4/11|ReportField=CurrentTime~9:06:33|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Zz\Desktop\QCC制版\QCC\工程文件\8-8CONRTOL.SchDoc|ReportField=DocumentName~8-8CONRTOL.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2018/3/28|ReportField=Organization~|ReportField=ProjectName~8-8_控制板.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~8-8_控制板.PrjPCB|ReportField=DataSourceFullPath~C:\Users\Zz\Desktop\QCC制版\QCC\工程文件\8-8_控制板.PrjPCB
+||+24V, GND|TIMECON2PIN5.1MMA|PLUG|2
+Cap|Capacitor, Capacitor, Capacitor, Capacitor, Capacitor, [NoValue], [NoValue]|C1, C2, C3, C10, C11, C14, C16|0805 C|Cap|7
+Cap|Capacitor|C4, C5, C6, C7, C8|0603 C|Cap|5
+|Capacitor|C9, C12|0805 C|Cap2|2
+CAP Al||C13|C 10uF/50V|CAP Al|1
+CAP Al||C15|C 100uF/16V φ5*11mm SIP|CAP Al|1
+1N4148||D1, D2, D3, D4, D5, D6, D7, D8|D 1N4148(SOD-80/LL-34)|Diode|8
+GREEN||D9|0805 D|LED|1
+GREEN||D10, LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED18|LED 3mm SIP|LED|10
+2.5A|Fuse|F1|1A/250V-1|Fuse 2|1
+||FG, L, N|VIA|PLUG|3
+Header 1*16||J5|TIMECON5.1MMA|Header 1*16|1
+PA1a-24V||K1, K2, K3, K4, K5, K6, K7, K8|Relay PA1a-24V|Relay|8
+Inductor||L1|L 2.2uH SMD|Inductor|1
+Red||LED9, LED10, LED11, LED12, LED13, LED14, LED15, LED16, LED17|LED 3mm SIP|LED|9
+LTV-356T||OC1, OC2, OC3, OC4, OC5, OC6, OC7, OC8|SOP-4 LTV356T|Opto1|8
+Header 10|Header, 10-Pin|P1|Header 2*5 SMD|Header 10|1
+Header 3|Header, 3-Pin|P5|TIMECON3PIN5.1MMA|Header 3|1
+9012|PNP Bipolar Transistor|Q1, Q2, Q5, Q6, Q7, Q8, Q11, Q12, Q13, Q14, Q15, Q16, Q19, Q20, Q21, Q22, Q23, Q24, Q30|SOT-23B_N|PNP|19
+MMBT5551||Q3, Q4, Q9, Q10, Q17, Q18, Q25, Q26|MMBT5551(SOT-23/TO-236)|NPN|8
+RES||R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R43, R44, R45, R46, R47, R48, R49, R50, R51, R101, R102, R103, R104, R105, R106, R107, R108, R109, R110, R111, R112, R113, R114, R115, R116, R117, R118, R119, R120|0805 R 1/8W|RES|70
+330 ohm|Resistor|R42|0805 D|Res2|1
+Res2|Resistor|R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, R70, R71, R72, R73, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99|0805 R 1/8W|Res2|48
+S_SET||S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19|12*12*4.3|SW-PB|19
+STM32F103RBT6||U1|STM32F103RBT6|STM32F103R8T6|1
+AMS1117|Voltage Regulator|U2|SOT223_L|Volt Reg|1
+WRB2405S-3WR2||U3|WRB_S-3WR2|WRB2405S-3WR2|1
+AT24C16A||U4|SOIC|AT24C16A|1
+12M|Crystal Oscillator|X1|XTAL SMD|XTAL|1

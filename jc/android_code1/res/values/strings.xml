@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">testApp</string>
+    <string name="navigation_home">主页</string>
+    <string name="navigation_home2">重点页</string>
+    <string name="navigation_home3">我 页</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

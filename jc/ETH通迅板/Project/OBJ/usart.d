@@ -1,0 +1,16 @@
+.\obj\usart.o: ..\CODE\usart.c
+.\obj\usart.o: ..\FWLib\stm32f10x.h
+.\obj\usart.o: ..\FWLib\core_cm3.h
+.\obj\usart.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\usart.o: ..\FWLib\system_stm32f10x.h
+.\obj\usart.o: ..\CODE\stm32f10x_conf.h
+.\obj\usart.o: ..\FWLib\inc\stm32f10x_crc.h
+.\obj\usart.o: ..\FWLib\stm32f10x.h
+.\obj\usart.o: ..\FWLib\inc\stm32f10x_gpio.h
+.\obj\usart.o: ..\FWLib\inc\stm32f10x_iwdg.h
+.\obj\usart.o: ..\FWLib\inc\stm32f10x_rcc.h
+.\obj\usart.o: ..\FWLib\inc\stm32f10x_spi.h
+.\obj\usart.o: ..\FWLib\inc\stm32f10x_tim.h
+.\obj\usart.o: ..\FWLib\inc\stm32f10x_usart.h
+.\obj\usart.o: ..\FWLib\inc\misc.h
+.\obj\usart.o: ..\CODE\usart.h

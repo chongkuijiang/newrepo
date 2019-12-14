@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kzy.jiang.application.SlideMenuView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <include layout="@layout/activity_main"
+            android:layout_width="800dp"
+            android:layout_height="match_parent"
+            android:background="#aaa"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#485"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/scroll_to_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="scrollTo"/>
+
+        <Button
+            android:id="@+id/scroll_by_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="scrollBy"/>
+        <com.kzy.jiang.application.ScrollerLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="This is first child view"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="This is second child view"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="This is third child view"/>
+
+        </com.kzy.jiang.application.ScrollerLayout>
+
+
+    </LinearLayout>
+</com.kzy.jiang.application.SlideMenuView>

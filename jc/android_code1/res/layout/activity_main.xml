@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:myself="http://schemas.android.com/apk/res-auto">
+<com.kzy.jiang.application.TopView
+    android:id="@+id/topview"
+    android:layout_width="800dp"
+    android:layout_height="40dp"
+
+    />
+
+    <com.kzy.jiang.application.CustomView
+        android:id="@+id/cusview"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center" />
+
+    <com.kzy.jiang.application.RoundImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher_round"
+        myself:border_inside_color="#fff7f2"
+        myself:border_outside_color="#ffd5d1"
+        myself:border_thickness="8dp" />
+
+    <com.kzy.jiang.application.ImageText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        myself:Text="这是一个图片说明"
+        myself:Src="@mipmap/time"
+        myself:Oriental="Vertical"/>
+
+    <com.kzy.jiang.application.CustomListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

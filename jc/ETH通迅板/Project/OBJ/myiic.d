@@ -1,0 +1,17 @@
+.\obj\myiic.o: ..\CODE\myiic.c
+.\obj\myiic.o: ..\CODE\myiic.h
+.\obj\myiic.o: ..\CODE\sys.h
+.\obj\myiic.o: ..\FWLib\stm32f10x.h
+.\obj\myiic.o: ..\FWLib\core_cm3.h
+.\obj\myiic.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\myiic.o: ..\FWLib\system_stm32f10x.h
+.\obj\myiic.o: ..\CODE\stm32f10x_conf.h
+.\obj\myiic.o: ..\FWLib\inc\stm32f10x_crc.h
+.\obj\myiic.o: ..\FWLib\stm32f10x.h
+.\obj\myiic.o: ..\FWLib\inc\stm32f10x_gpio.h
+.\obj\myiic.o: ..\FWLib\inc\stm32f10x_iwdg.h
+.\obj\myiic.o: ..\FWLib\inc\stm32f10x_rcc.h
+.\obj\myiic.o: ..\FWLib\inc\stm32f10x_spi.h
+.\obj\myiic.o: ..\FWLib\inc\stm32f10x_tim.h
+.\obj\myiic.o: ..\FWLib\inc\stm32f10x_usart.h
+.\obj\myiic.o: ..\FWLib\inc\misc.h

@@ -1,0 +1,166 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\jiang\test\CW401-TFTÍ¨Ñ¸°å\Project\CW401-TFT´óÍ¨Ñ¸°å.uvproj
+Project File Date:  09/01/2018
+
+<h2>Output:</h2>
+Build target 'C401-TFT'
+compiling LCDConf.c...
+..\STemWin\Config\LCDConf.c(304): warning:  #177-D: function "_ReadPixel" was declared but never referenced
+  static U16 _ReadPixel(int LayerIndex) {
+..\STemWin\Config\LCDConf.c(335): warning:  #177-D: function "_ReadMPixels" was declared but never referenced
+  static void _ReadMPixels(int LayerIndex, U16 * pBuffer, U32 NumPixels) {
+..\STemWin\Config\LCDConf.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=39738 RO-data=19914 RW-data=476 ZI-data=15004  
+FromELF: creating hex file...
+".\OBJ\C401-TFT.axf" - 0 Error(s), 2 Warning(s).
+Load "D:\\jiang\\test\\CW401-TFTÍ¨Ñ¸°å\\Project\\OBJ\\C401-TFT.axf" 
+Set JLink Project File to "D:\jiang\test\CW401-TFTÍ¨Ñ¸°å\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected (128 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.90 , compiled Jul 28 2014 10:35:20
+Firmware: J-Link V9 compiled Dec 16 2016 15:34:10
+Hardware: V9.30
+S/N : 59300616 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.317V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+: warning:  #177-D: function "_ReadMPixels" was declared but never referenced
+  static void _ReadMPixels(int LayerIndex, U16 * pBuffer, U32 NumPixels) {
+..\STemWin\Config\LCDConf.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=28322 RO-data=19710 RW-data=380 ZI-data=15004  
+FromELF: creating hex file...
+".\OBJ\C401-TFT.axf" - 0 Error(s), 5 Warning(s).
+Load "D:\\jiang\\test\\CW401-TFTÍ¨Ñ¸°å\\Project\\OBJ\\C401-TFT.axf" 
+Set JLink Project File to "D:\jiang\test\CW401-TFTÍ¨Ñ¸°å\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected (128 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.90 , compiled Jul 28 2014 10:35:20
+Firmware: J-Link V9 compiled Dec 16 2016 15:34:10
+Hardware: V9.30
+S/N : 59300616 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.320V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+on regions with .ANY selector matching gui_x.o(.data).
+.\OBJ\C401-TFT.axf: Error: L6406E: No space in execution regions with .ANY selector matching gui_core.o(.data).
+.\OBJ\C401-TFT.axf: Error: L6406E: No space in execution regions with .ANY selector matching gui_core.o(.data).
+.\OBJ\C401-TFT.axf: Error: L6406E: No space in execution regions with .ANY selector matching gui_charline.o(.data).
+.\OBJ\C401-TFT.axf: Error: L6406E: No space in execution regions with .ANY selector matching lcd.o(.data).
+.\OBJ\C401-TFT.axf: Error: L6406E: No space in execution regions with .ANY selector matching wm__sendmessage.o(.data).
+.\OBJ\C401-TFT.axf: Error: L6406E: No space in execution regions with .ANY selector matching gui_core.o(.data).
+.\OBJ\C401-TFT.axf: Error: L6406E: No space in execution regions with .ANY selector matching gui_core.o(.data).
+.\OBJ\C401-TFT.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.data).
+.\OBJ\C401-TFT.axf: Error: L6407E: Sections of aggregate size 0x1c18 bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 35 error messages.
+".\OBJ\C401-TFT.axf" - 35 Error(s), 0 Warning(s).
+Target not created
+D_X_Serial.c(124): warning:  #223-D: function "LCD_SET_DATA" declared implicitly
+    if ((Data >> 2) & 1) LCD_SET_DATA(); else LCD_CLR_DATA(); LCD_CLR_CLK(); LCD_SET_CLK();
+..\STemWin\Config\LCD_X_Serial.c(124): warning:  #223-D: function "LCD_CLR_DATA" declared implicitly
+    if ((Data >> 2) & 1) LCD_SET_DATA(); else LCD_CLR_DATA(); LCD_CLR_CLK(); LCD_SET_CLK();
+..\STemWin\Config\LCD_X_Serial.c(125): warning:  #223-D: function "LCD_SET_DATA" declared implicitly
+    if ((Data >> 1) & 1) LCD_SET_DATA(); else LCD_CLR_DATA(); LCD_CLR_CLK(); LCD_SET_CLK();
+..\STemWin\Config\LCD_X_Serial.c(125): warning:  #223-D: function "LCD_CLR_DATA" declared implicitly
+    if ((Data >> 1) & 1) LCD_SET_DATA(); else LCD_CLR_DATA(); LCD_CLR_CLK(); LCD_SET_CLK();
+..\STemWin\Config\LCD_X_Serial.c(126): warning:  #223-D: function "LCD_SET_DATA" declared implicitly
+    if ((Data >> 0) & 1) LCD_SET_DATA(); else LCD_CLR_DATA(); LCD_CLR_CLK(); LCD_SET_CLK();
+..\STemWin\Config\LCD_X_Serial.c(126): warning:  #223-D: function "LCD_CLR_DATA" declared implicitly
+    if ((Data >> 0) & 1) LCD_SET_DATA(); else LCD_CLR_DATA(); LCD_CLR_CLK(); LCD_SET_CLK();
+..\STemWin\Config\LCD_X_Serial.c(139): warning:  #223-D: function "LCD_CLR_CLK" declared implicitly
+    LCD_CLR_CLK(); LCD_SET_CLK(); if (LCD_SDO()) Data |= (1 << 7);
+..\STemWin\Config\LCD_X_Serial.c(139): warning:  #223-D: function "LCD_SET_CLK" declared implicitly
+    LCD_CLR_CLK(); LCD_SET_CLK(); if (LCD_SDO()) Data |= (1 << 7);
+..\STemWin\Config\LCD_X_Serial.c(139): warning:  #223-D: function "LCD_SDO" declared implicitly
+    LCD_CLR_CLK(); LCD_SET_CLK(); if (LCD_SDO()) Data |= (1 << 7);
+..\STemWin\Config\LCD_X_Serial.c(140): warning:  #223-D: function "LCD_SDO" declared implicitly
+    LCD_CLR_CLK(); LCD_SET_CLK(); if (LCD_SDO()) Data |= (1 << 6);
+..\STemWin\Config\LCD_X_Serial.c(141): warning:  #223-D: function "LCD_SDO" declared implicitly
+    LCD_CLR_CLK(); LCD_SET_CLK(); if (LCD_SDO()) Data |= (1 << 5);
+..\STemWin\Config\LCD_X_Serial.c(142): warning:  #223-D: function "LCD_SDO" declared implicitly
+    LCD_CLR_CLK(); LCD_SET_CLK(); if (LCD_SDO()) Data |= (1 << 4);
+..\STemWin\Config\LCD_X_Serial.c(143): warning:  #223-D: function "LCD_SDO" declared implicitly
+    LCD_CLR_CLK(); LCD_SET_CLK(); if (LCD_SDO()) Data |= (1 << 3);
+..\STemWin\Config\LCD_X_Serial.c(144): warning:  #223-D: function "LCD_SDO" declared implicitly
+    LCD_CLR_CLK(); LCD_SET_CLK(); if (LCD_SDO()) Data |= (1 << 2);
+..\STemWin\Config\LCD_X_Serial.c(145): warning:  #223-D: function "LCD_SDO" declared implicitly
+    LCD_CLR_CLK(); LCD_SET_CLK(); if (LCD_SDO()) Data |= (1 << 1);
+..\STemWin\Config\LCD_X_Serial.c(146): warning:  #223-D: function "LCD_SDO" declared implicitly
+    LCD_CLR_CLK(); LCD_SET_CLK(); if (LCD_SDO()) Data |= (1 << 0);
+..\STemWin\Config\LCD_X_Serial.c(161): warning:  #223-D: function "LCD_SET_A0" declared implicitly
+    LCD_SET_A0();
+..\STemWin\Config\LCD_X_Serial.c(169): warning:  #223-D: function "LCD_SET_A0" declared implicitly
+    LCD_SET_A0();
+..\STemWin\Config\LCD_X_Serial.c(179): warning:  #223-D: function "LCD_CLR_A0" declared implicitly
+    LCD_CLR_A0();
+..\STemWin\Config\LCD_X_Serial.c(188): warning:  #223-D: function "LCD_CLR_A0" declared implicitly
+    LCD_CLR_A0();
+..\STemWin\Config\LCD_X_Serial.c: 38 warnings, 0 errors
+compiling LCDConf.c...
+..\STemWin\Config\LCDConf.c(47): error:  #5: cannot open source input file "LCD_X_8080_16.h": No such file or directory
+    #include "LCD_X_8080_16.h"
+..\STemWin\Config\LCDConf.c: 0 warnings, 1 error
+".\OBJ\C401-TFT.axf" - 1 Error(s), 40 Warning(s).
+Target not created
+d implicitly
+    LCD_CLR_A0();
+..\STemWin\Config\LCD_X_Serial.c: 38 warnings, 0 errors
+compiling LCDConf.c...
+..\STemWin\Config\LCDConf.c(47): error:  #5: cannot open source input file "LCD_X_8080_16.h": No such file or directory
+    #include "LCD_X_8080_16.h"
+..\STemWin\Config\LCDConf.c: 0 warnings, 1 error
+".\OBJ\CW401-bigCommnt.axf" - 3 Error(s), 40 Warning(s).
+Target not created

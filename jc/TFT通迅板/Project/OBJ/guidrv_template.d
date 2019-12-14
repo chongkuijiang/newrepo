@@ -1,0 +1,15 @@
+.\obj\guidrv_template.o: ..\STemWin\Config\GUIDRV_Template.c
+.\obj\guidrv_template.o: D:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\obj\guidrv_template.o: ..\STemWin\inc\LCD_Private.h
+.\obj\guidrv_template.o: ..\STemWin\Config\LCDConf.h
+.\obj\guidrv_template.o: ..\STemWin\inc\LCD_Protected.h
+.\obj\guidrv_template.o: ..\STemWin\inc\LCD.h
+.\obj\guidrv_template.o: ..\STemWin\inc\GUI_ConfDefaults.h
+.\obj\guidrv_template.o: ..\STemWin\Config\GUIConf.h
+.\obj\guidrv_template.o: ..\STemWin\inc\Global.h
+.\obj\guidrv_template.o: ..\STemWin\inc\GUI.h
+.\obj\guidrv_template.o: ..\STemWin\inc\GUI_Type.h
+.\obj\guidrv_template.o: ..\STemWin\inc\GUI_Version.h
+.\obj\guidrv_template.o: ..\STemWin\inc\GUI_Private.h
+.\obj\guidrv_template.o: ..\STemWin\inc\GUI_Debug.h
+.\obj\guidrv_template.o: ..\STemWin\inc\LCD_ConfDefaults.h

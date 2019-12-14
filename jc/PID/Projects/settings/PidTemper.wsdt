@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>PID_Temper/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>204</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Workspace>
+      <Build>
+        <PreferedWindows>
+          
+          
+          
+          
+        <Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>597</ColumnWidth1><ColumnWidth2>159</ColumnWidth2><ColumnWidth3>39</ColumnWidth3></Build>
+      <Find-in-Files>
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window></Windows></PreferedWindows><ColumnWidth0>470</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>806</ColumnWidth2></Find-in-Files>
+    <TerminalIO/><Debug-Log><ColumnWidth0>21</ColumnWidth0><ColumnWidth1>1249</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd0><Tabs><Tab><Identity>TabID-10579-12936</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>PID_Temper</ExpandedNode><ExpandedNode>PID_Temper/Driver</ExpandedNode><ExpandedNode>PID_Temper/Package</ExpandedNode><ExpandedNode>PID_Temper/Package/Fuzzy.c</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd0></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Package\Pid.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>22</YPos2><SelStart2>1397</SelStart2><SelEnd2>1409</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>15</YPos2><SelStart2>749</SelStart2><SelEnd2>749</SelEnd2></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Driver\stm32f10x_it.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>138</YPos2><SelStart2>5599</SelStart2><SelEnd2>5611</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Package\ds18b20.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>110</YPos2><SelStart2>1236</SelStart2><SelEnd2>1286</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0332D760><key>iaridepm.enu1</key></Toolbar-0332D760></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>897</Bottom><Right>278</Right><x>-2</x><y>-2</y><xscreen>327</xscreen><yscreen>486</yscreen><sizeHorzCX>255469</sizeHorzCX><sizeHorzCY>515924</sizeHorzCY><sizeVertCX>218750</sizeVertCX><sizeVertCY>954352</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes/></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

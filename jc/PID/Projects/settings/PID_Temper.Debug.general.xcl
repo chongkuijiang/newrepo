@@ -1,0 +1,15 @@
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armproc.dll" 
+
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armjlink2.dll" 
+
+"D:\jiang\test\PID\Projects\Debug\Exe\PID_Temper.out" 
+
+--plugin "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
+
+ --attach 
+
+--device_macro "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+
+
+
+

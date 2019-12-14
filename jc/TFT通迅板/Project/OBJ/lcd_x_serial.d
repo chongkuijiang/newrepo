@@ -1,0 +1,15 @@
+.\obj\lcd_x_serial.o: ..\STemWin\Config\LCD_X_Serial.c
+.\obj\lcd_x_serial.o: ..\FWLib\stm32f10x.h
+.\obj\lcd_x_serial.o: ..\FWLib\core_cm3.h
+.\obj\lcd_x_serial.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\lcd_x_serial.o: ..\FWLib\system_stm32f10x.h
+.\obj\lcd_x_serial.o: ..\CODE\stm32f10x_conf.h
+.\obj\lcd_x_serial.o: ..\FWLib\inc\stm32f10x_crc.h
+.\obj\lcd_x_serial.o: ..\FWLib\stm32f10x.h
+.\obj\lcd_x_serial.o: ..\FWLib\inc\stm32f10x_gpio.h
+.\obj\lcd_x_serial.o: ..\FWLib\inc\stm32f10x_iwdg.h
+.\obj\lcd_x_serial.o: ..\FWLib\inc\stm32f10x_rcc.h
+.\obj\lcd_x_serial.o: ..\FWLib\inc\stm32f10x_spi.h
+.\obj\lcd_x_serial.o: ..\FWLib\inc\stm32f10x_tim.h
+.\obj\lcd_x_serial.o: ..\FWLib\inc\stm32f10x_usart.h
+.\obj\lcd_x_serial.o: ..\FWLib\inc\misc.h
